@@ -17,19 +17,19 @@
     <header>
         <div class="container">
             <a href="#" class="logo">
-                <img src=".//Images/logo.png" alt="logo">
+                <img src="../ElzeroSecProject/Images/logo.png" alt="logo">
             </a>
             <nav>
                 <i class="fas fa-bars toggle-menu"></i>
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#price">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="form">
+                <div class="form" id="home">
                     <i class="fas fa-search"></i>
                 </div>
             </nav>
@@ -56,7 +56,7 @@
     </div>
     <!-- End landing -->
     <!-- Start Services -->
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <div class="main-heading">
                 <h2>Services</h2>
@@ -112,7 +112,7 @@
     </div>
     <!-- End Design -->
     <!-- Start Portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container">
             <div class="main-heading">
                 <h2>Portfolio</h2>
@@ -200,13 +200,13 @@
     </div>
     <!-- End Video -->
     <!-- Start About -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="main-heading">
                 <h2>About</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus eligendi assumenda adipisci beatae rerum. Possimus voluptatem hic at aliquam voluptas quo quas. Odit fugit nostrum blanditiis sapiente deserunt. Esse!</p>
             </div>
-            <img src=".//Images/about.png" alt="">
+            <img src="../ElzeroSecProject/Images/about.png" alt="">
         </div>
     </div>
     <!-- End About -->
@@ -239,69 +239,210 @@
     <!--Start Our Skills -->
     <div class="our-skills">
         <div class="container">
-          <div class="testimonials">
-            <h3>Testimonials</h3>
-            <p>
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
-              tincidunt.
-            </p>
-            <div class="content">
-              <img decoding="async" src=".//Images/skills-01.jpg" alt="" />
-              <div class="text">
+            <div class="testimonials">
+                <h3>Testimonials</h3>
+                <p>
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
                 tincidunt.
-                <p>Sharqawy</p>
-                <hr>   <!--        ركز هنا -->
-              </div>
+                </p>
+                <div class="content">
+                <img decoding="async" src=".//Images/skills-01.jpg" alt="" />
+                <div class="text">
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                    <p>Sharqawy</p>
+                    <hr>   <!--        ركز هنا -->
+                </div>
+                </div>
+                <div class="content">
+                <img decoding="async" src=".//Images/skills-02.jpg" alt="" />
+                <div class="text">
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                    <p>Sharqawy's son</p>
+                    <hr>   <!--        ركز هنا -->
+                </div>
+                </div>
+                <ul class="bullets">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+                </ul>
             </div>
-            <div class="content">
-              <img decoding="async" src=".//Images/skills-02.jpg" alt="" />
-              <div class="text">
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
                 tincidunt.
-                <p>Sharqawy's son</p>
-                <hr>   <!--        ركز هنا -->
-              </div>
+                </p>
+                <div class="prog-holder">
+                <h4>Adobe</h4>
+                <div class="prog">
+                    <span style="width: 90%" data-progress="90%"></span>
+                </div>
+                </div>
+                <div class="prog-holder">
+                <h4>Html &amp; Css</h4>
+                <div class="prog">
+                    <span style="width: 85%" data-progress="85%"></span>
+                </div>
+                </div>
+                <div class="prog-holder">
+                <h4>JavaScript</h4>
+                <div class="prog">
+                    <span style="width: 80%" data-progress="80%"></span>
+                </div>
+                </div>
+                <div class="prog-holder">
+                <h4>Php</h4>
+                <div class="prog">
+                    <span style="width: 90%" data-progress="90%"></span>
+                </div>
+                </div>
             </div>
-            <ul class="bullets">
-              <li></li>
-              <li class="active"></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="skills">
-            <h3>Skills</h3>
-            <p>
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
-              tincidunt.
-            </p>
-            <div class="prog-holder">
-              <h4>Adobe</h4>
-              <div class="prog">
-                <span style="width: 90%" data-progress="90%"></span>
-              </div>
             </div>
-            <div class="prog-holder">
-              <h4>Html &amp; Css</h4>
-              <div class="prog">
-                <span style="width: 85%" data-progress="85%"></span>
-              </div>
-            </div>
-            <div class="prog-holder">
-              <h4>JavaScript</h4>
-              <div class="prog">
-                <span style="width: 80%" data-progress="80%"></span>
-              </div>
-            </div>
-            <div class="prog-holder">
-              <h4>Php</h4>
-              <div class="prog">
-                <span style="width: 90%" data-progress="90%"></span>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     <!--End Our Skills -->
+    <!-- Start Qoute -->
+    <div class="qoute">
+        <div class="container">
+            <i class="fa-solid fa-quote-left"></i>
+            <i>
+                Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma , which is living with the results of other people's thinking
+            </i>
+            <i class="fa-solid fa-quote-right"></i>
+            <span>Sharqawy</span>
+        </div>
+    </div>
+    <!-- End Qoute -->
+    <!-- Start Pricing -->
+    <div class="pricing" id="price">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Pricing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus eligendi assumenda adipisci beatae rerum. Possimus voluptatem hic at aliquam voluptas quo quas. Odit fugit nostrum blanditiis sapiente deserunt. Esse!</p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1 </li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2 </li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Plus</h3>
+                        <span>29</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1 </li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2 </li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Pro</h3>
+                        <span>39</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1 </li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2 </li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Pro Max</h3>
+                        <span>49</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1 </li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2 </li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <p class="contact-text-p">Contuct Us If You Want The Best Work</p>
+            <a class="contact-link-p" href="#">Contact us</a>
+        </div>
+    </div>
+    <!-- End Pricing -->
+    <!-- Start Subscribe -->
+        <div class="subscribe">
+            <div class="container">
+            <form action="">
+                <i class="far fa-envelope fa-lg"></i>
+                <input required type="email" name="mail" placeholder="Your Email" />
+                <input type="submit" value="Subscribe" />
+            </form>
+            <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.
+            </p>
+        </div>
+        </div>
+        <!-- End Subscribe -->
+        <!-- Start contact -->
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus eligendi assumenda adipisci beatae rerum. Possimus voluptatem hic at aliquam voluptas quo quas. Odit fugit nostrum blanditiis sapiente deserunt. Esse!</p>
+                    <div class="content">
+                        <form action="">
+                            <input  class="main-input" type="text" name="name" placeholder="Your Name">
+                            <input  class="main-input" type="email" name="email" placeholder="Your Email">
+                            <textarea  class="main-input" name="message" placeholder="your message"></textarea>
+                            <input type="submit" value="Send Message">
+                        </form>
+                        <div class="info">
+                            <h4>Get In Touch</h4>
+                            <span class="phone">+201091215660</span>
+                            <span class="phone">+201091215660</span>
+                            <h4>Where We Are</h4>
+                            <address>Awesome Address 17 <br> New York. XxX <br> 123-456-987 <br> USA</address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End contact -->
+        <!-- Start Footer -->
+        <div class="footer">
+            <div class="container">
+                <img src=".//Images/logo.png" alt="logo">
+                <p class="we">We Are Social</p>
+                <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-youtube"></i>
+                </div>
+                <p class="copyright">Made with 💙 By Sharqawy &copy; 2023 <span class="sharqawy">SharQawy</span> All Right Reversed</p>
+            </div>
+        </div>
+<!--End Footer -->
 </body>
 </html>
+<!-- 💙  💙  💙  💙 Love All  💙  💙  💙  💙 -->
